@@ -1,5 +1,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -35,6 +37,7 @@ ul li a {
 
 .banner-img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .banner-text {
@@ -50,6 +53,57 @@ ul li a {
 }
 
 .banner-description {
-    color:  #727272;
+    color: #727272;
     font-weight: 400;
+}
+
+.primary-btn {
+    padding: 10px 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1rem;
+    border: none;
+
+
+}
+/* media query  */
+/* for mobile device */
+@media screen and (max-width:576px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    nav ul{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .banner-description, .banner-title{
+        margin-bottom: 20px;
+    }  
+}
+/* for tablet or medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+        
+    }
+    header{
+        padding: 50px;
+    }
+    nav ul{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .banner-description, .banner-title{
+        margin-bottom: 20px;
+    }  
 }
