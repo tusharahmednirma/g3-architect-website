@@ -205,6 +205,16 @@ main section {
     .feature-text {
         padding-top: 20px;
     }
+    .fact-container{
+        flex-direction: column;
+        gap: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .fact{
+        padding-left: 20px;
+    }
+   
 
 
 }
@@ -236,4 +246,8 @@ main section {
     .feature-img {
         grid-template-columns: repeat(2, 1fr);
     }
+    .fact{
+        padding-left: 20px;
+    }
+    
 }
